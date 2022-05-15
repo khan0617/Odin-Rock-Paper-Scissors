@@ -6,8 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>じゃんけん</title>
     <script src="rockPaperScissors.js" async defer></script>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1 id="result"></h1>
+    <h1>Rock Paper Scissors</h1>
+    <div id="info">Make a Choice!</div>
+    <div class="container">
+        <div class="myButton">
+            <input class="rock" type="image" src="./images/rock.jpg" />
+            <p>Rock</p>
+        </div>
+
+        <div class="myButton">
+            <input class="paper" type="image" src="./images/paper.jpg" />
+            <p>Paper</p>
+        </div>
+
+        <div class="myButton">
+            <input class="scissors" type="image" src="./images/scissors.jpg" />
+            <p>Scissors</p>
+        </div>
+        
+    </div>
+
+    <div class="count-container">
+        <div id="player" class="counter"></div>
+        <div id="tie" class="counter"></div>
+        <div id="computer" class="counter"></div>
+    </div>
+
+    <h2 id="result"></h2>
 </body>
 </html>
